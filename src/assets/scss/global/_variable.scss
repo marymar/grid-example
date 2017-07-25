@@ -1,0 +1,18 @@
+// breakpoints
+$breakpoints: (
+  s: 320px,
+  sm: 580px,
+  m: 768px,
+  l: 1024px
+);
+
+$gap: 1rem;
+
+// colors
+$color-container: #fff;
+$color-footer: #999;;
+$color-header: #c4d5d6;
+$color-page: #d0cece;
+$color-marker: lighten($color-page, 20%);
+$color-text: #3f595a;
+$color-link: #51247d; 

@@ -1,0 +1,7 @@
+.sidebar {
+  grid-area: sidebar;
+  border: 1px dashed $color-page;
+  border-radius: .5rem;
+  padding: $gap;
+  margin: 0 $gap;
+}

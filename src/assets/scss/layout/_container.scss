@@ -1,0 +1,23 @@
+.container {
+  @include breakpoint-up(m) {
+    grid-template-areas:
+      "header    header    header"
+      "navi      navi      navi"
+      "main      main      sidebar"
+      "footer    footer    footer";
+    grid-template-columns: 4fr 2fr 2fr;
+    grid-template-rows: auto;  
+  }
+  
+  background: 0 $color-container;
+  display: grid;
+  grid-column-gap: $gap;
+  grid-row-gap:$gap;
+  grid-template-areas: 
+      "header"
+      "navi"
+      "sidebar"
+      "main"
+      "footer";
+  // padding: 0 $gap;
+}

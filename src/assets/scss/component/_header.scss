@@ -1,0 +1,11 @@
+.header {
+  grid-area: header;
+  background: 0 $color-header;
+  padding: $gap;
+
+  &__headline {
+    color: $color-text;
+    margin-bottom: 0;
+    text-decoration: underline;
+  }
+}

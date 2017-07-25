@@ -1,0 +1,17 @@
+.navigation {
+  @include breakpoint-up(m) {
+    display: flex;
+    justify-content: space-between;
+  }
+  list-style-type: none;
+  margin: 0 $gap;
+
+  &__item {
+    border: 1px solid $color-marker;
+    border-radius: .5rem;
+    padding: $gap*.5 0;
+  }
+
+  &__link {
+  }
+}
