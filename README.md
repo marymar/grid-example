@@ -1,6 +1,8 @@
 # CSS Grid Example
 
-Shows a simple grid example, whith fallback functionality for older browsers.
+Shows a simple grid example.
+
+[Live Example](http://marymar.github.io/grid-example/public/)
 
 ## Precondition
 
