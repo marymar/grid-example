@@ -2,6 +2,8 @@
 
 Shows a simple grid example, whith fallback functionality for older browsers.
 
+[Live Example](http://marymar.github.io/grid-example/public/)
+
 ## Precondition
 
 ### Local server
