@@ -1,8 +1,10 @@
 # CSS Gridset Approaches
 
-- Gridset Floating Columns
+- Floats
+
   `float: left`
-- Gridset with Flexboxes
+
+- Flexbox
 
   Bootstrap grid system (Version 4)
   [Bootstrap Grid System](https://v4-alpha.getbootstrap.com/layout/grid/)
@@ -11,7 +13,7 @@
   [FLEXBOX FROGGY](http://flexboxfroggy.com/)
 
 
-- Gridset with CSS Grid
+- CSS Grid
 
   Idea from Microsoft
 
