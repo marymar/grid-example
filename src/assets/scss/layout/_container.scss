@@ -5,15 +5,15 @@
       "navi      navi      navi"
       "main      main      sidebar"
       "footer    footer    footer";
-    grid-template-columns: 4fr 2fr 2fr;
-    grid-template-rows: auto;  
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
   }
-  
+
   background: 0 $color-container;
   display: grid;
   grid-column-gap: $gap;
   grid-row-gap:$gap;
-  grid-template-areas: 
+  grid-template-areas:
       "header"
       "navi"
       "sidebar"

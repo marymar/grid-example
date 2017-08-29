@@ -1,7 +1,12 @@
 .header {
   grid-area: header;
-  background: 0 $color-header;
   padding: $gap;
+
+  &-bar {
+    grid-area: header;
+    background: 0 $color-header;
+  }
+
 
   &__headline {
     color: $color-text;
