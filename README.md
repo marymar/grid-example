@@ -11,15 +11,14 @@ Shows a simple grid example.
 Install a local http server to run this example on localhost.
 e.g: https://www.npmjs.com/package/http-server
 
+`npm install -g http-server`
+
+
 ### Grunt-cli
 
 Install the grunt-cli. Grunt is a Build Tool used in this example
 
 `npm install -g grunt-cli`
-
-## Install Http-Server
-
-`npm install -g http-server`
 
 ## Run in development mode
 
