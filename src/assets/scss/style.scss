@@ -1,5 +1,5 @@
 // mixins and variables
-@import "global/variable", 
+@import "global/variable",
   "global/mixin";
 
 // webfonts
@@ -11,14 +11,14 @@
 
 // Layout
 @import "layout/container",
-  "layout/main";
+"layout/wrapper",
+  "layout/main",
+  "layout/nav",
+  "layout/footer";
 
 // Blocks
 @import "block/navigation";
 
 // Components
 @import "component/header.scss",
-  "component/nav",
-  "component/sidebar",
-  "component/footer";
-
+  "component/sidebar";

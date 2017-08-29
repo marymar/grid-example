@@ -1,0 +1,10 @@
+.footer {
+  grid-area: footer;
+  padding: $gap;
+
+  &-bar {
+    grid-area: footer;
+    background: 0 $color-footer;
+  }
+
+}
